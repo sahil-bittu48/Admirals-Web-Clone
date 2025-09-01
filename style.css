@@ -345,11 +345,268 @@
     margin-top: 4%;
     cursor: pointer;
 }
+.tradingdest{
+    width: 100%;
+    height: 40%;
+    background-image: radial-gradient(circle, rgba(7, 39, 53, .99) 0, #031118 100%);
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.tradehead{
+    width: 1140px;
+    height: 48px;
+    background-color: white;
+    margin-top: 3%;
+    margin-left: 11%;
+    display: flex;
+    align-items: center;
+}
+.tradehead h1{
+    font-size: 24px;
+    font-family: "Inter",sans-serif;
+    color: #000000de;
+    border-left: 4px solid #1e86ff;
+    margin-left: 8px;
+    padding: 5px 0px 5px 7px;
+}
+.pc{
+    width: 67px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+     background-color: #f3f7ff;
+    border-bottom: 2px solid #0059fc;
+    cursor: pointer;
+}
+.pc:hover{
+     background-color: #f3f7ff;
+     border-bottom: 2px solid #0059fc;
+}
+.webtr{
+    width: 141px;
+    height: 100%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.webtr:hover{
+     background-color: #f3f7ff;
+     border-bottom: 2px solid #0059fc;
+}
+.pc h3{
+    font-size: 15px;
+    font-family: "Inter",sans-serif;
+    color:#0059fc; 
+    font-weight: 400;
+}
+.webtr h3{
+    font-size: 15px;
+    font-family: "Inter",sans-serif;
+    color: grey; 
+    font-weight: 400;
+}
+.tradetext{
+    margin-top: 4%;
+    margin-left: 11%;
+}
+.tradetext h4{
+    font-size: 34px;
+    font-family: "Inter",sans-serif;
+    color: white;
+    font-weight:400;
+    width: 467px;
+    height: 126px;
+}
+.tradetext p{
+    color: white;
+     font-size: 16px;
+    font-family: "Inter",sans-serif;
+    width: 396px;
+    height: 84px;
+    line-height: 30px;
+    margin-top: 1%;
+}
+.btnbox{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.btnbox .pic{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnbox button{
+    width: 190px;
+    height: 48px;
+    background-color: #23b064;
+    border-radius: 7px;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-weight: 700;
+    position: relative;
+    bottom: 25px;
+    right: 42%;
+}
+#imgsrc{
+    width: 648px;
+    height: 423px;
+    position: relative;
+    left: 36%;
+    bottom: 45%;
+}
+.datacont{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+.admcont{
+    width: 100%;
+    height: 444px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    gap: 30px;
+}
+.abox{
+    width: 258px;
+    height: 444px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    box-shadow: 0px 1px 1px rgb(75, 73, 73) ;
+}
+.abox img{
+    margin-top: 15%;
+}
+.datacont img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.admcont h3{
+   font-family: "Inter",sans-serif;
+   font-size: 24px;  
+   text-align:center ;
+   font-weight: 400;
+}
+.admcont p{
+   font-family: "Inter",sans-serif;
+   font-size: 16px;  
+   color: grey;
+   text-align: center;
+   line-height: 30px;
+   width: 210px;
+}
+.admcont h2{
+    font-family: "Inter",sans-serif;
+   font-size: 16px;   
+   color: #00b65d;
+}
+.picbox{
+    width: 100%;
+    height: 336px;
+    margin-top: 8%;
+    background: url("https://dynamic-images.admiralmarkets.com/2560x,webp/static-images.admiralmarkets.com/images/elements/try-demo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 2px 8px grey;
+}
+.outer{
+    display: flex;
+}
+.textouter{
+    width: 500px;
+    margin-left: 10%;
+}
+.textouter h2{
+  font-family: "Inter",sans-serif;
+   font-size: 48px;  
+   text-align: left;
+   font-weight: 300;
+   margin-bottom: 20px;
+}
+.textouter p{
+  font-family: "Inter",sans-serif;
+   font-size: 16px;
+   color: grey;  
+   line-height: 30px; 
+}
+.textouter button{
+ width: 204px;
+ height: 48px;
+ background-color: #23b064;
+ border-radius: 8px;
+ position: relative;
+ right: 220px;
+   font-family: "Inter",sans-serif;
+}
+.iconouter{
+    width: 500px;
+    height: 156px;
+    margin-left: 15%;
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sq1{
+    width: 124px;
+    height: 124px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 10px;
+    position: relative;
+    left: 10px;
+}
+.sq2{
+    width: 156px;
+    height: 156px;
+    background-color: white;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 10px;
+}
+.sq3{
+     width: 124px;
+    height: 124px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 10px;
+    position: relative;
+    right: 10px;
+}
+.iconouter p{
+     font-family: "Inter",sans-serif;
+   font-size: 14px; 
+   color: grey;
+}
 .pbox{
     width: 100%;
     height: 25%;
     margin-top: 5%;
     display: flex;
+      box-shadow: 0px 3px 8px grey;
 }
 .pbox .photobox{
     width: 50%;
@@ -384,4 +641,115 @@
     border-radius: 5px;
     position: relative;
     right:110px;
+}
+footer{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    margin-top: 4%;
+}
+.sqrstrip{
+    width: 75%;
+    height: 18%;
+    margin-left: 12%;
+    border-top: 1px solid rgb(217, 202, 202);
+    border-bottom:  1px solid rgb(217, 202, 202);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logobox5{
+    display: flex;
+    gap: 10px;
+    width: 25%;
+}
+.lb{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgb(237, 233, 233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.lb:hover{
+    color: #0059fc;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.textdiv{
+    width: 345px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-color: rgb(237, 233, 233);
+     border-radius: 10px;
+}
+.textdiv p{
+    font-family: "Inter",sans-serif;
+    color: rgb(79, 78, 78);
+    font-size: 16px;  
+}
+.anchdiv{
+    width: 75%;
+    height: 60%;
+    margin-left: 12%;
+     border-bottom:  1px solid rgb(217, 202, 202);
+     display: flex;
+}
+.fcol{
+    width: 542px;
+    height: 100%;
+}
+.fcol h2{
+    font-family: "Inter",sans-serif; 
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 1%;
+}
+.fcol p{
+    font-family: "Inter",sans-serif; 
+    font-size: 14px; 
+    color: grey;
+    width: 480px;
+    white-space: wrap;
+    line-height: 25px;
+}
+.parabox{
+    width: 75%;
+    height: 810px;
+    margin-left: 12%;
+    border-bottom:  1px solid rgb(217, 202, 202);
+}
+.parabox p{
+    font-family: "Inter",sans-serif; 
+    color: #00000099; 
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 3%;
+}
+.pp{
+    width: 75%;
+    height: 45%;
+    margin-left: 12%;
+}
+.pp .ppbox{
+    width: 100%;
+    height: 40%;
+    border-bottom:  1px solid rgb(217, 202, 202);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.ppbox b{
+    font-size: 14px;
+    font-family: "Inter",sans-serif; 
+    color: #00000099;
+    cursor: pointer;
+}
+.ppbox b:hover{
+ color: #0059fc;
 }
